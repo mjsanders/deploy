@@ -1,10 +1,10 @@
 # My DeployStudio scripts#
 Here are some scripts that I use for Deployment and DeployStudio
-Most are targeted at my special situation where I boot and deploy from a local partition (disk0s2)
-and use DeployStudio to restore the rest of the disk.
-These are mac's used in training classes where the
+Most are targeted at my special situation where I boot and deploy from a local partition (disk0s2) and use DeployStudio to restore the rest of the disk.
+These are mac's used in training classes where the layout of partition may vary after class (one/two partitions, CoreStorage none/unencrypted/encrypted, FAT, empty)
 
-new and old (parts of scripts some are from 10.7)
+New and old (parts of scripts some are from 10.7) 
+The most interesting scripts are:
 
 ### delete_FV2.sh###
 deletes the CoreStorage volumes of a local disk (after training)
